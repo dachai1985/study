@@ -3,3 +3,8 @@ aapt dump badging D:\test\xxx.apk
 
 windows获取当前操作app的包名和activity
 adb shell dumpsys window | findstr mCurrentFocus
+
+git status
+git add .
+git commit - m 'comment'
+git push
