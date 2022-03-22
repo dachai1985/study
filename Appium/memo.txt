@@ -3,8 +3,3 @@ aapt dump badging D:\test\xxx.apk
 
 windows获取当前操作app的包名和activity
 adb shell dumpsys window | findstr mCurrentFocus
-
-
-Trident test app：
-package: name='com.linecorp.lgsdktest'
-launchable-activity: name='com.linecorp.trident.unity.TridentUnityPlayerActivity'
