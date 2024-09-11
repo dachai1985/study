@@ -8,3 +8,6 @@ git status
 git add .
 git commit - m 'comment'
 git push
+
+
+mCurrentFocus=Window{365af79 u0 com.linecorp.dev2.lgtri3p/com.linecorp.trident.unity.TridentUnityPlayerActivity}
