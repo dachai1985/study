@@ -35,3 +35,4 @@ class LoginPage(BasePage): #这个类本身没有构造函数，但其父类有�
         except Exception as e:
             self.logger.error(f"An error occurred during login: {e}")
             raise
+        
