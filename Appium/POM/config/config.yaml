@@ -1,0 +1,10 @@
+# yaml文件内键值对格式不用逗号和引号
+# 设置终端参数项
+desired_caps:
+    platformName: Android
+    platformVersion': 14
+    deviceName: OPPO Reno11 5G #安卓随便写被忽略的参数，ios需要写明
+    appPackage: com.MobileTicket
+    appActivity: com.MobileTicket.ui.activity.WelcomeGuideActivity
+    noReset: false #小写的 true 和 false 来表示布尔值
+    skipServerInstallation: true 
