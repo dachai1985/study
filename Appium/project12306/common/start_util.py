@@ -3,20 +3,16 @@ import logging
 import os
 import sys
 from appium.options.android import UiAutomator2Options
-# 获取当前脚本的绝对路径
-current_dir = os.path.dirname(os.path.abspath(__file__))
-# 将项目根目录添加到系统路径
-sys.path.append(os.path.join(current_dir, '..', '..'))
-from POM.common.data_util import readYaml
+from Appium.project12306.common.data_util import readyaml
 from appium import webdriver
 
 
 def setup():
-    rootPath = os.path.abspath(os.path.dirname(os.path.dirname(__file__))) 
+    rootpath = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
     logger = logging.getLogger(__name__)
-    logger.debug(f"Root path: {rootPath}")
-    path = os.path.join(rootPath, r"config\config.yaml")
-    data = readYaml(path)
+    logger.debug(f"Root path: {rootpath}")
+    path = os.path.join(rootpath, r"config\config.yaml")
+    data = readyaml(path)
     logger.debug(f"Data: {data['desired_caps']}")
 
     # 创建参数项对象

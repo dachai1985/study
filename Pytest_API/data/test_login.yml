@@ -1,0 +1,17 @@
+
+# 登录测试用例
+# 测试用例名称：登录成功
+"case_name": "登录成功"
+"url": "/authenticate"
+"data":
+    "email": "chai@excample.com"
+    "passwd": "daccf256f725ed4205357e24a877a00b77abce77"
+"except": '"name":"chai", "email"；"chai@excample.com"'
+---
+# 测试用例名称：登录失败
+"case_name": "登录失败"
+"url": "/authenticate"
+"data":
+    "email": "chai@excample.com"
+    "passwd": "99999"
+"except": '"error":"value:invalid", "message"；"Invalid password."'

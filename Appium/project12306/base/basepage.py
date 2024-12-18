@@ -1,4 +1,6 @@
 import logging
+import os.path
+
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from appium.webdriver.common.appiumby import AppiumBy
@@ -10,6 +12,12 @@ class BasePage:
         self.logger = self.setup_logger()
     
     def setup_logger(self):
+        log_file = 'appium_test.log'
+        """清空日志文件"""
+        if os.path.exists(log_file):
+            with open(log_file, 'w') as file:
+                pass # 打开立即关闭文件以清空内容
+
         """日志记录"""
         logger = logging.getLogger(self.__class__.__name__)
         logger.setLevel(logging.DEBUG)  # 设置最低日志级别为DEBUG
@@ -44,7 +52,8 @@ class BasePage:
             return element
         except Exception as e:
             self.logger.error(f"Element not found: {loc}. Error: {e}")
-            raise
+            # raise
+            return None
 
     def wait_and_click(self, loc, timeout=10):
         #等待元素出现并点击
@@ -70,7 +79,18 @@ class BasePage:
                             end_y=height*end_y_ratio, 
                             duration=1000)
         self.logger.debug(f"Swiped from ({start_x_ratio}, {start_y_ratio}) to ({end_x_ratio}, {end_y_ratio})")
-    
+
+    def tap_screen(self, x=None, y=None):
+        screen_size = self.driver.get_window_size()
+        width = screen_size['width']
+        height = screen_size['height']
+        if x is None or y is None:
+            x = width/2
+            y = height/2
+        print("x============", x)
+        print("y============", y)
+        self.driver.tap([(x,y)])
+
     def show_elements(self):
         try:
             elements = self.driver.find_elements(AppiumBy.XPATH, "//*")

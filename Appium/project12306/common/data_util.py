@@ -1,7 +1,6 @@
-import os
 import yaml
 
-def readYaml(path):
+def readyaml(path):
     try:
         with open(path, "r+", encoding="utf-8") as file:
             data=yaml.safe_load(file)

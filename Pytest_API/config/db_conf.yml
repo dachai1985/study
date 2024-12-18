@@ -1,0 +1,15 @@
+
+db_awesome:
+  host: "localhost"
+  port: "3306"
+  database: "awesome"
+  user: "root"
+  password: "123"
+  charset: "utf8"
+
+db_2:
+  host: "test"
+  port: "3306"
+  database: "awesome"
+  user: "root"
+  password: "123"

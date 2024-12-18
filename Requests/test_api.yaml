@@ -1,0 +1,10 @@
+test_name:
+  description: "Test Baidu homepage"
+  steps:
+    - request:
+        method: get
+        url: https://www.baidu.com
+
+    - response:
+      status_code: 200
+      text: "*baidu*"

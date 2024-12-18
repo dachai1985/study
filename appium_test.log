@@ -668,3 +668,135 @@ NoSuchElementError: An element could not be located on the page using the given 
 2024-12-06 17:10:54,205 - LoginPage - INFO - Login completed successfully.
 2024-12-06 17:11:24,997 - BasePage - INFO - Driver quit
 2024-12-06 17:11:24,997 - BasePage - INFO - Driver quit
+2024-12-10 16:24:13,457 - LoginPage - INFO - Starting login process...
+2024-12-10 16:24:13,462 - LoginPage - DEBUG - Waiting for element: ('id', 'com.MobileTicket:id/permission_msg_button')
+2024-12-10 16:24:14,106 - LoginPage - DEBUG - Element found: ('id', 'com.MobileTicket:id/permission_msg_button')
+2024-12-10 16:24:14,106 - LoginPage - INFO - Permission popup found, clicking agree.
+2024-12-10 16:24:14,106 - LoginPage - DEBUG - Waiting for element: ('id', 'com.MobileTicket:id/permission_msg_button')
+2024-12-10 16:24:14,144 - LoginPage - DEBUG - Element found: ('id', 'com.MobileTicket:id/permission_msg_button')
+2024-12-10 16:24:14,216 - LoginPage - DEBUG - Clicked on element: ('id', 'com.MobileTicket:id/permission_msg_button')
+2024-12-10 16:24:14,219 - LoginPage - DEBUG - Waiting for element: ('xpath', '//android.widget.ImageView')
+2024-12-10 16:24:16,350 - LoginPage - DEBUG - Element found: ('xpath', '//android.widget.ImageView')
+2024-12-10 16:24:16,351 - LoginPage - INFO - Onboarding images found, swiping through.
+2024-12-10 16:24:17,706 - LoginPage - DEBUG - Swiped from (0.8, 0.5) to (0.2, 0.5)
+2024-12-10 16:24:19,073 - LoginPage - DEBUG - Swiped from (0.8, 0.5) to (0.2, 0.5)
+2024-12-10 16:24:19,073 - LoginPage - DEBUG - Waiting for element: ('id', 'com.MobileTicket:id/btn_enter')
+2024-12-10 16:24:20,052 - LoginPage - DEBUG - Element found: ('id', 'com.MobileTicket:id/btn_enter')
+2024-12-10 16:24:20,052 - LoginPage - INFO - Try it now button found, clicking.
+2024-12-10 16:24:20,052 - LoginPage - DEBUG - Waiting for element: ('id', 'com.MobileTicket:id/btn_enter')
+2024-12-10 16:24:20,163 - LoginPage - DEBUG - Element found: ('id', 'com.MobileTicket:id/btn_enter')
+2024-12-10 16:24:20,274 - LoginPage - DEBUG - Clicked on element: ('id', 'com.MobileTicket:id/btn_enter')
+2024-12-10 16:24:20,274 - LoginPage - DEBUG - Waiting for element: ('id', 'com.MobileTicket:id/guide_ok_img_down_elder')
+2024-12-10 16:24:24,331 - LoginPage - DEBUG - Element found: ('id', 'com.MobileTicket:id/guide_ok_img_down_elder')
+2024-12-10 16:24:24,331 - LoginPage - INFO - OK button found, clicking.
+2024-12-10 16:24:24,332 - LoginPage - DEBUG - Waiting for element: ('id', 'com.MobileTicket:id/guide_ok_img_down_elder')
+2024-12-10 16:24:24,428 - LoginPage - DEBUG - Element found: ('id', 'com.MobileTicket:id/guide_ok_img_down_elder')
+2024-12-10 16:24:24,994 - LoginPage - DEBUG - Clicked on element: ('id', 'com.MobileTicket:id/guide_ok_img_down_elder')
+2024-12-10 16:24:24,994 - LoginPage - DEBUG - Waiting for element: ('id', 'com.MobileTicket:id/ticket_home_bottom_bar_mine')
+2024-12-10 16:24:26,199 - LoginPage - DEBUG - Element found: ('id', 'com.MobileTicket:id/ticket_home_bottom_bar_mine')
+2024-12-10 16:24:27,336 - LoginPage - DEBUG - Clicked on element: ('id', 'com.MobileTicket:id/ticket_home_bottom_bar_mine')
+2024-12-10 16:24:27,336 - LoginPage - DEBUG - Waiting for element: ('-android uiautomator', 'new UiSelector().text("未登录,点击去登录")')
+2024-12-10 16:24:27,496 - LoginPage - DEBUG - Element found: ('-android uiautomator', 'new UiSelector().text("未登录,点击去登录")')
+2024-12-10 16:24:28,035 - LoginPage - DEBUG - Clicked on element: ('-android uiautomator', 'new UiSelector().text("未登录,点击去登录")')
+2024-12-10 16:24:28,035 - LoginPage - DEBUG - Waiting for element: ('-android uiautomator', 'new UiSelector().resourceId("usernameinput")')
+2024-12-10 16:24:29,449 - LoginPage - DEBUG - Element found: ('-android uiautomator', 'new UiSelector().resourceId("usernameinput")')
+2024-12-10 16:24:29,674 - LoginPage - DEBUG - Input text '13504283519' into element: ('-android uiautomator', 'new UiSelector().resourceId("usernameinput")')
+2024-12-10 16:24:29,674 - LoginPage - DEBUG - Waiting for element: ('-android uiautomator', 'new UiSelector().resourceId("passwordinput")')
+2024-12-10 16:24:30,264 - LoginPage - DEBUG - Element found: ('-android uiautomator', 'new UiSelector().resourceId("passwordinput")')
+2024-12-10 16:24:30,450 - LoginPage - DEBUG - Input text 'chaicai1985' into element: ('-android uiautomator', 'new UiSelector().resourceId("passwordinput")')
+2024-12-10 16:24:30,450 - LoginPage - DEBUG - Waiting for element: ('xpath', '//android.widget.Button[@text="登录"]')
+2024-12-10 16:24:30,644 - LoginPage - DEBUG - Element found: ('xpath', '//android.widget.Button[@text="登录"]')
+2024-12-10 16:24:31,029 - LoginPage - DEBUG - Clicked on element: ('xpath', '//android.widget.Button[@text="登录"]')
+2024-12-10 16:24:31,029 - LoginPage - INFO - Login completed successfully.
+2024-12-10 16:24:36,032 - BasePage - INFO - Done...
+2024-12-10 16:24:36,035 - LoginPage - INFO - Starting login process...
+2024-12-10 16:24:36,035 - LoginPage - INFO - Starting login process...
+2024-12-10 16:24:36,035 - LoginPage - DEBUG - Waiting for element: ('id', 'com.MobileTicket:id/permission_msg_button')
+2024-12-10 16:24:36,035 - LoginPage - DEBUG - Waiting for element: ('id', 'com.MobileTicket:id/permission_msg_button')
+2024-12-10 16:24:41,356 - LoginPage - ERROR - Element not found: ('id', 'com.MobileTicket:id/permission_msg_button'). Error: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.2\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+2024-12-10 16:24:41,356 - LoginPage - ERROR - Element not found: ('id', 'com.MobileTicket:id/permission_msg_button'). Error: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.2\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+2024-12-10 16:24:41,356 - LoginPage - ERROR - An error occurred during login: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.2\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+2024-12-10 16:24:41,356 - LoginPage - ERROR - An error occurred during login: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.2\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+2024-12-10 16:24:42,409 - BasePage - INFO - Driver quit
+2024-12-10 16:45:05,775 - LoginPage - INFO - Starting login process...
+2024-12-10 16:45:05,806 - LoginPage - DEBUG - Waiting for element: ('id', 'com.MobileTicket:id/permission_msg_button')
+2024-12-10 16:45:06,446 - LoginPage - DEBUG - Element found: ('id', 'com.MobileTicket:id/permission_msg_button')
+2024-12-10 16:45:06,447 - LoginPage - INFO - Permission popup found, clicking agree.
+2024-12-10 16:45:06,447 - LoginPage - DEBUG - Waiting for element: ('id', 'com.MobileTicket:id/permission_msg_button')
+2024-12-10 16:45:06,473 - LoginPage - DEBUG - Element found: ('id', 'com.MobileTicket:id/permission_msg_button')
+2024-12-10 16:45:06,525 - LoginPage - DEBUG - Clicked on element: ('id', 'com.MobileTicket:id/permission_msg_button')
+2024-12-10 16:45:06,526 - LoginPage - DEBUG - Waiting for element: ('xpath', '//android.widget.ImageView')
+2024-12-10 16:45:08,758 - LoginPage - DEBUG - Element found: ('xpath', '//android.widget.ImageView')
+2024-12-10 16:45:08,758 - LoginPage - INFO - Onboarding images found, swiping through.
+2024-12-10 16:45:10,111 - LoginPage - DEBUG - Swiped from (0.8, 0.5) to (0.2, 0.5)
+2024-12-10 16:45:11,486 - LoginPage - DEBUG - Swiped from (0.8, 0.5) to (0.2, 0.5)
+2024-12-10 16:45:11,486 - LoginPage - DEBUG - Waiting for element: ('id', 'com.MobileTicket:id/btn_enter')
+2024-12-10 16:45:12,437 - LoginPage - DEBUG - Element found: ('id', 'com.MobileTicket:id/btn_enter')
+2024-12-10 16:45:12,437 - LoginPage - INFO - Try it now button found, clicking.
+2024-12-10 16:45:12,437 - LoginPage - DEBUG - Waiting for element: ('id', 'com.MobileTicket:id/btn_enter')
+2024-12-10 16:45:12,531 - LoginPage - DEBUG - Element found: ('id', 'com.MobileTicket:id/btn_enter')
+2024-12-10 16:45:12,622 - LoginPage - DEBUG - Clicked on element: ('id', 'com.MobileTicket:id/btn_enter')
+2024-12-10 16:45:12,622 - LoginPage - DEBUG - Waiting for element: ('id', 'com.MobileTicket:id/guide_ok_img_down_elder')
+2024-12-10 16:45:16,724 - LoginPage - DEBUG - Element found: ('id', 'com.MobileTicket:id/guide_ok_img_down_elder')
+2024-12-10 16:45:16,724 - LoginPage - INFO - OK button found, clicking.
+2024-12-10 16:45:16,724 - LoginPage - DEBUG - Waiting for element: ('id', 'com.MobileTicket:id/guide_ok_img_down_elder')
+2024-12-10 16:45:16,761 - LoginPage - DEBUG - Element found: ('id', 'com.MobileTicket:id/guide_ok_img_down_elder')
+2024-12-10 16:45:17,300 - LoginPage - DEBUG - Clicked on element: ('id', 'com.MobileTicket:id/guide_ok_img_down_elder')
+2024-12-10 16:45:17,300 - LoginPage - DEBUG - Waiting for element: ('id', 'com.MobileTicket:id/ticket_home_bottom_bar_mine')
+2024-12-10 16:45:18,083 - LoginPage - DEBUG - Element found: ('id', 'com.MobileTicket:id/ticket_home_bottom_bar_mine')
+2024-12-10 16:45:19,006 - LoginPage - DEBUG - Clicked on element: ('id', 'com.MobileTicket:id/ticket_home_bottom_bar_mine')
+2024-12-10 16:45:19,006 - LoginPage - DEBUG - Waiting for element: ('-android uiautomator', 'new UiSelector().text("未登录,点击去登录")')
+2024-12-10 16:45:19,153 - LoginPage - DEBUG - Element found: ('-android uiautomator', 'new UiSelector().text("未登录,点击去登录")')
+2024-12-10 16:45:19,662 - LoginPage - DEBUG - Clicked on element: ('-android uiautomator', 'new UiSelector().text("未登录,点击去登录")')
+2024-12-10 16:45:19,662 - LoginPage - DEBUG - Waiting for element: ('-android uiautomator', 'new UiSelector().resourceId("usernameinput")')
+2024-12-10 16:45:21,111 - LoginPage - DEBUG - Element found: ('-android uiautomator', 'new UiSelector().resourceId("usernameinput")')
+2024-12-10 16:45:21,243 - LoginPage - DEBUG - Input text '13504283519' into element: ('-android uiautomator', 'new UiSelector().resourceId("usernameinput")')
+2024-12-10 16:45:21,244 - LoginPage - DEBUG - Waiting for element: ('-android uiautomator', 'new UiSelector().resourceId("passwordinput")')
+2024-12-10 16:45:21,312 - LoginPage - DEBUG - Element found: ('-android uiautomator', 'new UiSelector().resourceId("passwordinput")')
+2024-12-10 16:45:21,904 - LoginPage - DEBUG - Input text 'chaicai1985' into element: ('-android uiautomator', 'new UiSelector().resourceId("passwordinput")')
+2024-12-10 16:45:21,904 - LoginPage - DEBUG - Waiting for element: ('xpath', '//android.widget.Button[@text="登录"]')
+2024-12-10 16:45:22,015 - LoginPage - DEBUG - Element found: ('xpath', '//android.widget.Button[@text="登录"]')
+2024-12-10 16:45:22,490 - LoginPage - DEBUG - Clicked on element: ('xpath', '//android.widget.Button[@text="登录"]')
+2024-12-10 16:45:22,491 - LoginPage - INFO - Login completed successfully.
+2024-12-10 16:45:27,502 - BasePage - INFO - Done...
+2024-12-10 16:45:27,507 - LoginPage - INFO - Starting login process...
+2024-12-10 16:45:27,507 - LoginPage - INFO - Starting login process...
+2024-12-10 16:45:27,507 - LoginPage - DEBUG - Waiting for element: ('id', 'com.MobileTicket:id/permission_msg_button')
+2024-12-10 16:45:27,507 - LoginPage - DEBUG - Waiting for element: ('id', 'com.MobileTicket:id/permission_msg_button')
+2024-12-10 16:45:33,091 - LoginPage - ERROR - Element not found: ('id', 'com.MobileTicket:id/permission_msg_button'). Error: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.2\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+2024-12-10 16:45:33,091 - LoginPage - ERROR - Element not found: ('id', 'com.MobileTicket:id/permission_msg_button'). Error: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.2\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+2024-12-10 16:45:33,092 - LoginPage - ERROR - An error occurred during login: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.2\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+2024-12-10 16:45:33,092 - LoginPage - ERROR - An error occurred during login: Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.2\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:85:5)
+2024-12-10 16:45:34,150 - BasePage - INFO - Driver quit
