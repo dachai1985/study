@@ -5,13 +5,14 @@ from typing import List, Dict
 
 # 参数化 pytest list
 class ExcelReader:
-    def __init__(self, file_path):
+    def __init__(self, file_path, sheet_name=None):
         self.log = my_log()
         self.log.info(f"Checking for file at path: {file_path}")  # 记录日志
         # 验证excel文件是否存在
         if os.path.exists(file_path):
             self.file_path = file_path
             self.workbook = openpyxl.load_workbook(self.file_path)
+            self.sheet_name = sheet_name if sheet_name else self.workbook.sheetnames[0]
             self._data_list = []
         else:
             raise FileNotFoundError(f"File not found at path: {file_path}")
@@ -25,7 +26,7 @@ class ExcelReader:
         if not self._data_list:
             try:
                 # 获取第一个sheet
-                sheet = self.workbook['Sheet1']
+                sheet = self.workbook[self.sheet_name]
                 # 获取首行信息
                 head = [cell.value for cell in sheet[1]]
                 # 遍历测试行，与首行组成dict，放在list
@@ -57,7 +58,7 @@ class ExcelReader:
 
 if __name__ == '__main__':
     # data_dict_test()
-    excel_reader = ExcelReader("../data/api tc.xlsx")
+    excel_reader = ExcelReader("../data/api tc.xlsx", "Sheet1")
     data_list = excel_reader.read_test_data()
     print(data_list)
 

@@ -24,16 +24,18 @@ class TestAssertAPI:
             raise
 
     # 验证返回body
-    def asser_in_body(self, body_dict, excepted_body_dict):
+    def asser_in_body(self, body, excepted_body):
         try:
+            body = json.dumps(body) # 先将body转为json字符串
+            print("body is %s\nexcepted_body is %s"%(body, excepted_body))
+            assert  excepted_body in body
+            return True
+
             # body_dict = json.loads(body)
             # excepted_body_dict = json.loads(excepted_body)
             # 检查expected_body_dict的所有键值对是否在body_dict中存在
-            print(body_dict.items())
-            print(excepted_body_dict.items())
-            assert all(item in body_dict.items() for item in excepted_body_dict.items())
-            # body = json.dumps(body)
-            # # assert  excepted_body in body
+            # assert all(item in body_dict.items() for item in excepted_body.items())
+
         except Exception as e:
             self.log.error("Error in body assertion: %s", e, exc_info=True)
             raise
